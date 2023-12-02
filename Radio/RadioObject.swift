@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct RadioObject: Decodable {
+    var stations: [Station]?
+}
+
+struct Station: Decodable, Equatable, Encodable {
+    var id: Int?
+    var radioName: String?
+    var radioPic: String?
+    var radioUrl: String?
+}
+

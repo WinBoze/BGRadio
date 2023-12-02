@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702FA0A32B1BC611000C57AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A22B1BC611000C57AD /* Extensions.swift */; };
+		702FA0A52B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */; };
+		702FA0A72B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */; };
+		702FA0A92B1BC71A000C57AD /* PlayerViewController+SetupPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A82B1BC71A000C57AD /* PlayerViewController+SetupPlayer.swift */; };
 		709ABE2B2B1B2F9600A459C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE2A2B1B2F9600A459C0 /* AppDelegate.swift */; };
-		709ABE2D2B1B2F9600A459C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE2C2B1B2F9600A459C0 /* SceneDelegate.swift */; };
-		709ABE2F2B1B2F9600A459C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE2E2B1B2F9600A459C0 /* ViewController.swift */; };
 		709ABE322B1B2F9600A459C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709ABE302B1B2F9600A459C0 /* Main.storyboard */; };
 		709ABE342B1B2F9700A459C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709ABE332B1B2F9700A459C0 /* Assets.xcassets */; };
 		709ABE372B1B2F9700A459C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709ABE352B1B2F9700A459C0 /* LaunchScreen.storyboard */; };
+		709ABE3F2B1B307E00A459C0 /* RadioObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE3E2B1B307E00A459C0 /* RadioObject.swift */; };
+		709ABE412B1B309D00A459C0 /* RadioStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 709ABE402B1B309D00A459C0 /* RadioStations.json */; };
+		709ABE432B1B37EE00A459C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE422B1B37EE00A459C0 /* HomeViewController.swift */; };
+		709ABE452B1B380100A459C0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE442B1B380100A459C0 /* FavouritesViewController.swift */; };
+		709ABE482B1B38F900A459C0 /* RadioStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE462B1B38F900A459C0 /* RadioStationTableViewCell.swift */; };
+		709ABE492B1B38F900A459C0 /* RadioStationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709ABE472B1B38F900A459C0 /* RadioStationTableViewCell.xib */; };
+		709ABE4B2B1B439000A459C0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE4A2B1B439000A459C0 /* PlayerViewController.swift */; };
+		70A11B052B1BC7680075849B /* PlayerViewController+SetupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A11B042B1BC7680075849B /* PlayerViewController+SetupData.swift */; };
+		70A11B072B1BC7970075849B /* PlayerViewController+ButtonActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A11B062B1BC7970075849B /* PlayerViewController+ButtonActions.swift */; };
+		F4E8643199774968EAEF73F2 /* Pods_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090DA3B48367DE66EAC6A6AB /* Pods-Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.release.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.release.xcconfig"; sourceTree = "<group>"; };
+		281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702FA0A22B1BC611000C57AD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+TapGestureExtension.swift"; sourceTree = "<group>"; };
+		702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+RemoteCommandCenterExtension.swift"; sourceTree = "<group>"; };
+		702FA0A82B1BC71A000C57AD /* PlayerViewController+SetupPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+SetupPlayer.swift"; sourceTree = "<group>"; };
 		709ABE272B1B2F9600A459C0 /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709ABE2A2B1B2F9600A459C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		709ABE2C2B1B2F9600A459C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		709ABE2E2B1B2F9600A459C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		709ABE312B1B2F9600A459C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		709ABE332B1B2F9700A459C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709ABE362B1B2F9700A459C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709ABE382B1B2F9700A459C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709ABE3E2B1B307E00A459C0 /* RadioObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioObject.swift; sourceTree = "<group>"; };
+		709ABE402B1B309D00A459C0 /* RadioStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RadioStations.json; sourceTree = "<group>"; };
+		709ABE422B1B37EE00A459C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		709ABE442B1B380100A459C0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		709ABE462B1B38F900A459C0 /* RadioStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationTableViewCell.swift; sourceTree = "<group>"; };
+		709ABE472B1B38F900A459C0 /* RadioStationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioStationTableViewCell.xib; sourceTree = "<group>"; };
+		709ABE4A2B1B439000A459C0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		70A11B042B1BC7680075849B /* PlayerViewController+SetupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+SetupData.swift"; sourceTree = "<group>"; };
+		70A11B062B1BC7970075849B /* PlayerViewController+ButtonActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+ButtonActions.swift"; sourceTree = "<group>"; };
+		70ED5C452B1B8832007A9645 /* Radio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radio.entitlements; sourceTree = "<group>"; };
+		92D848AA642278D8E55E6C7E /* Pods-Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.debug.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E8643199774968EAEF73F2 /* Pods_Radio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702FA0AA2B1BC735000C57AD /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				709ABE4A2B1B439000A459C0 /* PlayerViewController.swift */,
+				702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */,
+				702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */,
+				702FA0A82B1BC71A000C57AD /* PlayerViewController+SetupPlayer.swift */,
+				70A11B042B1BC7680075849B /* PlayerViewController+SetupData.swift */,
+				70A11B062B1BC7970075849B /* PlayerViewController+ButtonActions.swift */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
 		709ABE1E2B1B2F9600A459C0 = {
 			isa = PBXGroup;
 			children = (
 				709ABE292B1B2F9600A459C0 /* Radio */,
 				709ABE282B1B2F9600A459C0 /* Products */,
+				C7FA0CDC335956F075F19DE5 /* Pods */,
+				9CBD2F16FD767A2D6D3F2FA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +100,54 @@
 			isa = PBXGroup;
 			children = (
 				709ABE2A2B1B2F9600A459C0 /* AppDelegate.swift */,
-				709ABE2C2B1B2F9600A459C0 /* SceneDelegate.swift */,
-				709ABE2E2B1B2F9600A459C0 /* ViewController.swift */,
-				709ABE302B1B2F9600A459C0 /* Main.storyboard */,
+				70DFFD512B1B9694005429CF /* RadioStationTableViewCell */,
+				70DFFD522B1B96AE005429CF /* ViewControllers */,
+				709ABE3E2B1B307E00A459C0 /* RadioObject.swift */,
+				709ABE402B1B309D00A459C0 /* RadioStations.json */,
+				702FA0A22B1BC611000C57AD /* Extensions.swift */,
 				709ABE332B1B2F9700A459C0 /* Assets.xcassets */,
+				709ABE302B1B2F9600A459C0 /* Main.storyboard */,
 				709ABE352B1B2F9700A459C0 /* LaunchScreen.storyboard */,
+				70ED5C452B1B8832007A9645 /* Radio.entitlements */,
 				709ABE382B1B2F9700A459C0 /* Info.plist */,
 			);
 			path = Radio;
+			sourceTree = "<group>";
+		};
+		70DFFD512B1B9694005429CF /* RadioStationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				709ABE462B1B38F900A459C0 /* RadioStationTableViewCell.swift */,
+				709ABE472B1B38F900A459C0 /* RadioStationTableViewCell.xib */,
+			);
+			path = RadioStationTableViewCell;
+			sourceTree = "<group>";
+		};
+		70DFFD522B1B96AE005429CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				709ABE422B1B37EE00A459C0 /* HomeViewController.swift */,
+				709ABE442B1B380100A459C0 /* FavouritesViewController.swift */,
+				702FA0AA2B1BC735000C57AD /* PlayerViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9CBD2F16FD767A2D6D3F2FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7FA0CDC335956F075F19DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92D848AA642278D8E55E6C7E /* Pods-Radio.debug.xcconfig */,
+				090DA3B48367DE66EAC6A6AB /* Pods-Radio.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709ABE3B2B1B2F9700A459C0 /* Build configuration list for PBXNativeTarget "Radio" */;
 			buildPhases = (
+				94539C6DB794A126AA56C4AA /* [CP] Check Pods Manifest.lock */,
 				709ABE232B1B2F9600A459C0 /* Sources */,
 				709ABE242B1B2F9600A459C0 /* Frameworks */,
 				709ABE252B1B2F9600A459C0 /* Resources */,
+				3ECBAF3F0A27D1F0631E1316 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +211,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				709ABE372B1B2F9700A459C0 /* LaunchScreen.storyboard in Resources */,
+				709ABE492B1B38F900A459C0 /* RadioStationTableViewCell.xib in Resources */,
 				709ABE342B1B2F9700A459C0 /* Assets.xcassets in Resources */,
+				709ABE412B1B309D00A459C0 /* RadioStations.json in Resources */,
 				709ABE322B1B2F9600A459C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ECBAF3F0A27D1F0631E1316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radio/Pods-Radio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radio/Pods-Radio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radio/Pods-Radio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94539C6DB794A126AA56C4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		709ABE232B1B2F9600A459C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709ABE2F2B1B2F9600A459C0 /* ViewController.swift in Sources */,
 				709ABE2B2B1B2F9600A459C0 /* AppDelegate.swift in Sources */,
-				709ABE2D2B1B2F9600A459C0 /* SceneDelegate.swift in Sources */,
+				702FA0A52B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift in Sources */,
+				709ABE3F2B1B307E00A459C0 /* RadioObject.swift in Sources */,
+				709ABE452B1B380100A459C0 /* FavouritesViewController.swift in Sources */,
+				709ABE482B1B38F900A459C0 /* RadioStationTableViewCell.swift in Sources */,
+				709ABE432B1B37EE00A459C0 /* HomeViewController.swift in Sources */,
+				702FA0A92B1BC71A000C57AD /* PlayerViewController+SetupPlayer.swift in Sources */,
+				702FA0A72B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift in Sources */,
+				709ABE4B2B1B439000A459C0 /* PlayerViewController.swift in Sources */,
+				70A11B052B1BC7680075849B /* PlayerViewController+SetupData.swift in Sources */,
+				702FA0A32B1BC611000C57AD /* Extensions.swift in Sources */,
+				70A11B072B1BC7970075849B /* PlayerViewController+ButtonActions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,19 +425,23 @@
 		};
 		709ABE3C2B1B2F9700A459C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D848AA642278D8E55E6C7E /* Pods-Radio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Radio/Radio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SHC739QLX9;
+				DEVELOPMENT_TEAM = HRC8GGMQHQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Radio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,27 +449,33 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winboze.Radio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		709ABE3D2B1B2F9700A459C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090DA3B48367DE66EAC6A6AB /* Pods-Radio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Radio/Radio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SHC739QLX9;
+				DEVELOPMENT_TEAM = HRC8GGMQHQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Radio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +483,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winboze.Radio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

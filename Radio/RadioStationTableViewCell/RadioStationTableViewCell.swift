@@ -8,8 +8,20 @@
 import UIKit
 
 class RadioStationTableViewCell: UITableViewCell {
-    var identifier = "RadioStationTableViewCell"
-    @IBOutlet weak var stationLogo: UIImageView!
+    @IBOutlet weak var holderView: UIView! {
+        didSet {
+            holderView.layer.cornerRadius = 10
+            holderView.layer.masksToBounds = true
+        }
+    }
+    @IBOutlet weak var stationLogo: UIImageView! {
+        didSet {
+            stationLogo.layer.cornerRadius = 10
+            stationLogo.layer.masksToBounds = true
+            stationLogo.layer.borderWidth = 1.0
+            stationLogo.layer.borderColor = UIColor.black.cgColor
+        }
+    }
     @IBOutlet weak var stationTitle: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

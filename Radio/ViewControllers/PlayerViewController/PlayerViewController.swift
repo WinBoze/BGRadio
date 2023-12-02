@@ -50,51 +50,11 @@ class PlayerViewController: UIViewController {
         super.viewDidLoad()
         self.backgroundImageView.image = UIImage(named: "background" + "\(Int.random(in: 1..<4))")
         self.setupTapGesture()
+        self.getSavedStations()
         self.setupData(forStation: currentStation!)
         self.setupPlayer()
         self.setupRemoteCommandCenter()
-
-        savedStations = []
+        self.getSavedStations()
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    func setupData(forStation: Station) {
-        self.radioNameLabel.text = forStation.radioName! + " "
-        self.artistImageView.kf.setImage(with: URL(string: forStation.radioPic ?? ""), placeholder: UIImage())
-    }
-    
-    @IBAction func backBtnPressed(_ sender: Any) {
-        let _ = self.pauseAudio()
-        self.playerItem = nil
-        self.dismiss(animated: false)
-    }
-    
-    @objc func playPausePressed() {
-        if self.playPauseImageView.image == UIImage(named: "play") {
-            let _ = self.playAudio()
-            self.playPauseImageView.image = UIImage(named: "pause")
-        } else {
-            let _ = self.pauseAudio()
-            self.playPauseImageView.image = UIImage(named: "play")
-        }
-    }
-    
-    @IBAction func favoriteBtnPressed(_ sender: Any) {
-        if let index = self.savedStations?.firstIndex(of: currentStation!) {
-            self.savedStations?.remove(at: index)
-            self.favoriteBtn.setImage(UIImage(systemName: "star"), for: .normal)
-        } else {
-            self.savedStations?.append(currentStation!)
-            self.favoriteBtn.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        }
-    }
-    
 }
 
