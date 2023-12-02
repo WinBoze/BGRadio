@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "volumeUp.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

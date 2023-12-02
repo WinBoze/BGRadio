@@ -1,0 +1,146 @@
+{
+  "BG On Air": {
+    "_id": 0,
+    "radioName": "BG On Air",
+    "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqn3ggh4AUq7lZdxzVkS6pppEUCCLoE3NTA&usqp=CAU",
+    "radioUrl": "https://live.radio.bgonair.bg/RadioBOA"
+  },
+  "BG VOICE HIT MIX": {
+    "_id": 0,
+    "radioName": "BG VOICE HIT MIX",
+    "radioPic": "https://streamurl.link/logos/00b83014bf476fc6b757b1230a7ac9ae5f5a7b15c0d36ef546868f76cc96c80d.png",
+    "radioUrl": "https://stream.radio.co/s53f1b7497/listen"
+  },
+  "City": {
+    "_id": 0,
+    "radioName": "City",
+    "radioPic": "https://streamurl.link/logos/2323d70c11b066d44b6148765503263f00a8f7bf809c472b3f2fd21566d187e2.png",
+    "radioUrl": "http://play.global.audio/city128"
+  },
+  "Classic Fm Radio": {
+    "_id": 0,
+    "radioName": "Classic Fm Radio",
+    "radioPic": "https://play-lh.googleusercontent.com/D-__2OFZIMY6mc1ibhiKQIAIqpDeGhpnfHsmEtFwIOYO8DvXj_2Uz8xfk9scJPj8HYU",
+    "radioUrl": "https://bravo.btv.bg/radio/classic-radio-proxy/index.php"
+  },
+  "Dance UK": {
+    "_id": 0,
+    "radioName": "Dance UK",
+    "radioPic": "https://streamurl.link/logos/fb96c25020649b9bedf479df1913acf52c325ebb5aba74311a273d8217cc0d7c.png",
+    "radioUrl": "https://dancestream.danceradiouk.com/"
+  },
+  "Darik": {
+    "_id": 0,
+    "radioName": "Darik",
+    "radioPic": "https://darikradio.bg/media/232/25godinidariklogo.m.l-1-.m.jpg",
+    "radioUrl": "https://darikradio.by.host.bg:8000/S2-128"
+  },
+  "Darik Nostalgie": {
+    "_id": 0,
+    "radioName": "Darik Nostalgie",
+    "radioPic": "https://darikradio.bg/media/165/nostalgie.m.jpg",
+    "radioUrl": "https://darikradio.by.host.bg:8000/Nostalgie"
+  },
+  "Deep Lounge Radio": {
+    "_id": 0,
+    "radioName": "Deep Lounge Radio",
+    "radioPic": "https://streamurl.link/logos/f94f8213d06f0946e51d4e8b623db659ada5df1cb2c3f7f718af7da3bc27fc83.png",
+    "radioUrl": "https://radio.jump.bg/proxy/georgi18/stream"
+  },
+  "Energy Zürich": {
+    "_id": 0,
+    "radioName": "Energy Zürich",
+    "radioPic": "https://streamurl.link/logos/d9f76d1f719a7291fe83d8612ed445d8e2570e0d662b10ab173afd3e9d6ce262.png",
+    "radioUrl": "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3"
+  },
+  "Hit Radio Ultra": {
+    "_id": 0,
+    "radioName": "Hit Radio Ultra",
+    "radioPic": "https://play-lh.googleusercontent.com/msvQVmQxHK7LmCedFfJRBpNHCyRcu8XfTn_Sz5s4kj5qXeIo9l-pjpY1C_lV_KwPwQ",
+    "radioUrl": "http://88.80.96.25:8020/listen.pl"
+  },
+  "Katra Fm": {
+    "_id": 0,
+    "radioName": "Katra Fm",
+    "radioPic": "https://streamurl.link/logos/23d8bd4606822b201f6a91ef3bca467ccb28a07f4a98f72bd45151632dd4c23a.png",
+    "radioUrl": "http://www.katrafm.net:8010/live"
+  },
+  "Maia": {
+    "_id": 0,
+    "radioName": "Maia",
+    "radioPic": "https://radiomaia.com/wp-content/uploads/2015/08/maq9-e1430946025479.png",
+    "radioUrl": "http://mail.rntel.com:9000/"
+  },
+  "Nova": {
+    "_id": 0,
+    "radioName": "Nova",
+    "radioPic": "https://streamurl.link/logos/54b2cbe0f8a4b6cf0114eb183c7f7845850ac016b59fac398960b02aa69d8fce.png",
+    "radioUrl": "http://149.13.0.81/nova128"
+  },
+  "Nova Brazil Rio": {
+    "_id": 0,
+    "radioName": "Nova Brazil Rio",
+    "radioPic": "https://www.radio.net/images/broadcasts/5e/43/118148/1/c300.png",
+    "radioUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_RIO.mp3"
+  },
+  "Nova News": {
+    "_id": 0,
+    "radioName": "Nova news",
+    "radioPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Nova_News_Bulgaria_logo.svg/1200px-Nova_News_Bulgaria_logo.svg.png",
+    "radioUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_NOVANEWSAAC_H.aac?dist=PREDAVATEL"
+  },
+  "Nrj": {
+    "_id": 0,
+    "radioName": "Nrj",
+    "radioPic": "https://media.metacast.eu/pictures/02_2023/Aud5WKLJ6ZOzqVThrMmU-84388.png",
+    "radioUrl": "http://play.global.audio/nrj128"
+  },
+  "Online DJ Radio": {
+    "_id": 0,
+    "radioName": "Online DJ Radio",
+    "radioPic": "https://onlinedjradio.com/wp-content/uploads/2012/01/online-radio-logo-274x274.png",
+    "radioUrl": "https://play.onlinedjradio.com:7000/live"
+  },
+  "Radio Family Bulgaria": {
+    "_id": 0,
+    "radioName": "Radio Family Bulgaria",
+    "radioPic": "https://streamurl.link/logos/747cc0689ed5c86c8ecf93b2bbf2e2c8d2dc7dfe7d8edf05c0afe73502eb6b63.png",
+    "radioUrl": "http://a1.virtualradio.eu:8000/family.mp3"
+  },
+  "Tangra": {
+    "_id": 0,
+    "radioName": "Tangra",
+    "radioPic": "https://www.predavatel.com/bg/istoriya/images-radio/1995-tangra1.jpg",
+    "radioUrl": "http://stream-02.radiotangra.com:8000/Tangra-middle"
+  },
+  "Авторадио": {
+    "_id": 0,
+    "radioName": "Авторадио",
+    "radioPic": "https://www.avtoradio.bg/ar_logo.f88b409f.png",
+    "radioUrl": "http://play.global.audio/avtoradio.mp3"
+  },
+  "БГ Радио": {
+    "_id": 0,
+    "radioName": "БГ Радио",
+    "radioPic": "https://streamurl.link/logos/092817ac94be09e47cb8bdebaae377908ab9520ed75e8e24847a5e1f3b2b7bb3.png",
+    "radioUrl": "http://play.global.audio/bgradio128"
+  },
+  "Бг Естрада": {
+    "_id": 0,
+    "radioName": "Бг Естрада",
+    "radioPic": "https://static-cdn.radioto.info/images/brands/bg/thumb_bgradio-estrada.png",
+    "radioUrl": "http://79.98.108.170:8278/autodj"
+  },
+  "Хоризонт": {
+    "_id": 0,
+    "radioName": "Хоризонт",
+    "radioPic": "https://www.radio.bg/Admin/upload/radios_logo_1225409860.jpg",
+    "radioUrl": "https://allradios.free.bg/media_w618464284_5821.aac"
+  },
+  "Христо Ботев": {
+    "_id": 0,
+    "radioName": "Христо Ботев",
+    "radioPic": "https://www.radio.bg/Admin/upload/radios_logo_1225410057.jpg",
+    "radioUrl": "https://allradios.free.bg/media_w545774473_505.aac"
+  }
+}
