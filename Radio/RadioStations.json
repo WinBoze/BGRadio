@@ -1,0 +1,307 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "radioName": "Радио NRJ",
+            "radioPic": "https://w7.pngwing.com/pngs/469/239/png-transparent-nrj-group-nrj-hits-internet-radio-nrj-international-in-maintenance-text-fm-broadcasting-logo-thumbnail.png",
+            "radioUrl": "https://play.global.audio/nrj128? "
+        },
+        {
+            "id": 2,
+            "radioName": "Радио Fresh",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSf3TkV1m3SacTrNUQksZgaNcQbYc_PhLayRK7QQcaA&s",
+            "radioUrl": "http://streamer.atlantis.bg:8000/fresh"
+        },
+        {
+            "id": 3,
+            "radioName": "Pадио City",
+            "radioPic": "https://www.city.bg/theme_assets/city/images/sharing/radio_default_banner.jpg",
+            "radioUrl": "https://play.global.audio/city64 "
+        },
+        {
+            "id": 4,
+            "radioName": "БГ Радио",
+            "radioPic": "https://www.radioplay.bg/assets/logos/bgradio.png",
+            "radioUrl": "https://play.global.audio/bgradio128"
+        },
+        {
+            "id": 5,
+            "radioName": "Радио Вероника",
+            "radioPic": "https://play-lh.googleusercontent.com/ArtTYm_vvv_4ptk1Q7ZSIgIzmaFbXAPirBJV391FL5vEEDb5P2DgveAH8c7kXkQWc9A",
+            "radioUrl": "https://play.global.audio/veronika64"
+        },
+        {
+            "id": 6,
+            "radioName": "Радио Веселина",
+            "radioPic": "https://play-lh.googleusercontent.com/ArtTYm_vvv_4ptk1Q7ZSIgIzmaFbXAPirBJV391FL5vEEDb5P2DgveAH8c7kXkQWc9A",
+            "radioUrl": "https://bss1.neterra.tv/veselina/veselina.m3u8"
+        },
+        {
+            "id": 7,
+            "radioName": "Радио N Joy",
+            "radioPic": "https://www.radio.bg/Admin/upload/radios_logo_1223108090.jpg",
+            "radioUrl": "http://live.btvradio.bg/njoy.mp3"
+        },
+        {
+            "id": 8,
+            "radioName": "Радио 1",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo74s-DWd5pzmvGX1nUMTn-YMMEPSHamGrHdJ3Sio-yg&s",
+            "radioUrl": "https://play.global.audio/radio164"
+        },
+        {
+            "id": 9,
+            "radioName": "Радио Витоша",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5S-DHwt2h_fBePb0xhBA_Hc9SmN1DvjQknnxx0ZR17A&s",
+            "radioUrl": "https://bss1.neterra.tv/vitosha/vitosha.m3u8"
+        },
+        {
+            "id": 10,
+            "radioName": "Радио Ултра",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlgtH0Q6BgmvAxcf0TDHJDppFx4nONgbX4GSiT6PJx-A&s",
+            "radioUrl": "http://88.80.96.25:40070/ultra.mp3"
+        },
+        {
+            "id": 11,
+            "radioName": "Радио The Voice",
+            "radioPic": "https://cache.usercontentapp.com/logo/138108.jpg?format=png&enlarge=0&quality=90&width=960",
+            "radioUrl": "https://bss1.neterra.tv/thevoicefm/thevoicefm.m3u8"
+        },
+        {
+            "id": 12,
+            "radioName": "Радио Z Rock",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VPeX8voAPFFTAxoH7Q_aKzM2XnsZvAssOq8W_zpB5g&s",
+            "radioUrl": "http://live.btvradio.bg/z-rock.mp3"
+        },
+        {
+            "id": 13,
+            "radioName": "Радио Nova",
+            "radioPic": "https://www.lalettre.pro/photo/art/grande/51214790-39358915.jpg?v=1604599845",
+            "radioUrl": "http://149.13.0.80/nova128?1701601408869"
+        },
+        {
+            "id": 14,
+            "radioName": "Дарик радио",
+            "radioPic": "https://darikradio.bg/media/223/16299211_713979568783038_1300403203795106554_n.m.jpg",
+            "radioUrl": "https://darikradio.by.host.bg:8000/S2-128"
+        },
+        {
+            "id": 15,
+            "radioName": "Радио Magic FM",
+            "radioPic": "https://i0.1616.ro/media/601/3161/38616/19550057/3/logo-magic-fm-nou-fundal-alb.jpg",
+            "radioUrl": "https://bss1.neterra.tv/magicfm/magicfm.m3u8"
+        },
+        {
+            "id": 16,
+            "radioName": "Радио FM Plus",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmm35avdUxpwnuVgmBvwGLlCq0XpXTKhz9HyY4PAvzg&s",
+            "radioUrl": "http://streamer.atlantis.bg:8000/fmplus"
+        },
+        {
+            "id": 17,
+            "radioName": "bTV Radio",
+            "radioPic": "https://static-cdn.radioto.info/images/brands/bg/thumb_btvradio.png",
+            "radioUrl": "https://web.static.btv.bg/radioplayer/btvradio.mp3"
+        },
+        {
+            "id": 18,
+            "radioName": "Радио Rock 1",
+            "radioPic": "https://play-lh.googleusercontent.com/ffCZ4jMLvKV6K-aajCehZOoOrzTye7t8860_PK3VEFKZvpxEMTpZTDtxkw732N94Smsd",
+            "radioUrl": "https://play.global.audio/radio1rock128"
+        },
+        {
+            "id": 19,
+            "radioName": "Радио Шумен",
+            "radioPic": "https://kulturni-novini.info/news/images/36275_3.jpg",
+            "radioUrl": "http://stream.bnr.bg:8033/radio-shumen.aac"
+        },
+        {
+            "id": 20,
+            "radioName": "Радио Зорана",
+            "radioPic": "https://dab.bg/wp-content/uploads/2018/05/radio-zorana.png",
+            "radioUrl": "http://79.98.108.177:8000/live"
+        },
+        {
+            "id": 21,
+            "radioName": "Радио Варна",
+            "radioPic": "https://yt3.googleusercontent.com/ytc/APkrFKaQ_6_bWB302rtUlApCMwNIim6rO3qePzJYw0o4=s900-c-k-c0x00ffffff-no-rj",
+            "radioUrl": "http://stream.bnr.bg:8031/radio-varna.aac"
+        },
+        {
+            "id": 22,
+            "radioName": "Радио Jazz FM",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVdfV5s_B1KmVAdPEFhV2jYPeXACKPpYupKQlzhpFKIQ&s",
+            "radioUrl": "https://web.static.btv.bg/radio/jazzfm-radio-proxy/index.php"
+        },
+        {
+            "id": 23,
+            "radioName": "Радио Power FM",
+            "radioPic": "https://media.info/l/f/1/127.1389967896.png",
+            "radioUrl": "http://a1.virtualradio.eu:8000/powerfm.mp3"
+        },
+        {
+            "id": 24,
+            "radioName": "Радио Classic FM",
+            "radioPic": "https://static.mytuner.mobi/media/tvos_radios/GS9rvGzdUd.png",
+            "radioUrl": "http://live.btvradio.bg/classic-fm.mp3"
+        },
+        {
+            "id": 25,
+            "radioName": "Радио Traffic Radio Station",
+            "radioPic": "https://www.radio.at/images/broadcasts/52/26/11879/1/c300.png",
+            "radioUrl": "http://radio.networx.bg:8000/TrafficRadio"
+        },
+        {
+            "id": 26,
+            "radioName": "Радио Фокус",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6I1LEfWY3hmCMGl2W-22y2gysJoYNiLn48_Nwop-5JzdLlwt9A6APa9aQ0AOppQy2VRY&usqp=CAU",
+            "radioUrl": "https://focusradio.dataserv.cc/stream/1/"
+        },
+        {
+            "id": 27,
+            "radioName": "Радио Katra FM",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZOyw7c2jlkyciWDanvZZiy01cThoxBv7ahLj3OOltEQ&s",
+            "radioUrl": "http://www.katrafm.net:9000/live"
+        },
+        {
+            "id": 28,
+            "radioName": "Радио Фолк БГ",
+            "radioPic": "https://static.mytuner.mobi/media/tvos_radios/FfQyGZhnq4.png",
+            "radioUrl": "http://listen.folkbg.net:8001/folkbg"
+        },
+        {
+            "id": 29,
+            "radioName": "Радио 999",
+            "radioPic": "https://static.mytuner.mobi/media/tvos_radios/k52K2vUACG.png",
+            "radioUrl": "http://62.204.158.5:8081/live"
+        },
+        {
+            "id": 30,
+            "radioName": "Радио София",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNEgtNrv14m0-HAWMEbRNJwq96mKH5oxthBLt70Q2WkQ&s",
+            "radioUrl": "http://stream.bnr.bg:8030/radio-sofia.aac"
+        },
+        {
+            "id": 31,
+            "radioName": "Радио Леле Мале",
+            "radioPic": "https://i1.sndcdn.com/avatars-fyzkyHFfRQOP2mUC-7fW9gg-t500x500.jpg",
+            "radioUrl": "http://meg.novahost.bg:8332/stream/1/"
+        },
+        {
+            "id": 32,
+            "radioName": "Радио БНР Хоризонт",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqQ6KuvzG_fmMW7hEitah_nLuzu85ncBjMW4eZsEK4w&s",
+            "radioUrl": "http://stream.bnr.bg:8011/horizont.aac"
+        },
+        {
+            "id": 33,
+            "radioName": "Радио Благоевград",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQ5DeaUUe1EF-ez_6rZt0UyeyQaLmjnJ4S1YxE1L_oQ&s",
+            "radioUrl": "https://sphera.fluidstream.eu/rpd_history.mp3"
+        },
+        {
+            "id": 34,
+            "radioName": "Радио Дарик Носталжи",
+            "radioPic": "https://darikradio.bg/media/165/nostalgie.m.jpg",
+            "radioUrl": "https://darikradio.by.host.bg:8000/Nostalgie"
+        },
+        {
+            "id": 35,
+            "radioName": "Радио Христо Ботев",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYID2VP6kA52BZvF0KYFqZ2bVSSINkSg17fzEZts-8JA&s",
+            "radioUrl": "http://stream.bnr.bg:8012/hristo-botev.aac"
+        },
+        {
+            "id": 36,
+            "radioName": "Радио Melody",
+            "radioPic": "https://yt3.googleusercontent.com/ytc/APkrFKbdMjM7bFEz54MH10l3dQi8oqjMv43csqQf_jEH=s900-c-k-c0x00ffffff-no-rj",
+            "radioUrl": "http://pulsar.atlantis.bg:8000/melody"
+        },
+        {
+            "id": 37,
+            "radioName": "Радио Добруджа",
+            "radioPic": "https://www.abbro-bg.org/wp-content/uploads/2019/10/znak-radio-dobrudja-1.jpg",
+            "radioUrl": "http://5.104.174.128:8000/radiodobrudja"
+        },
+        {
+            "id": 38,
+            "radioName": "Радио Стара Загора",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzEfeE2knWSevtr8jKfr_EZRGcQLbTCS6vKhR-67FgWg&s",
+            "radioUrl": "http://82.103.99.99:8000/radiosz"
+        },
+        {
+            "id": 39,
+            "radioName": "Радио КласикА",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyE4_1yqEEOe09uMyYNxi9SUN2rXYpgR_iY5Dn_Pwog&s",
+            "radioUrl": "https://a2.vizitec.com:8001/classica.mp3"
+        },
+        {
+            "id": 40,
+            "radioName": "Радио Пайнер",
+            "radioPic": "https://i.scdn.co/image/ab6775700000ee85ec2fa8b54fa6722aa57327fe",
+            "radioUrl": "http://87.120.6.86:8000/hq?1701601544918"
+        },
+        {
+            "id": 41,
+            "radioName": "Радио Тангра Мега Рок",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYtGN9Cwyj8NuSLA58rxctNCnEdhFl5thj22BJTfEX5g&s",
+            "radioUrl": "http://stream-bg-01.radiotangra.com:8000/Tangra-high"
+        },
+        {
+            "id": 42,
+            "radioName": "Радио Nova News",
+            "radioPic": "https://www.radioplay.bg/assets/logos/novanews.png",
+            "radioUrl": "https://23543.live.streamtheworld.com/RADIO_NOVANEWSAAC_H.aac"
+        },
+        {
+            "id": 43,
+            "radioName": "Радио Hit FM",
+            "radioPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGiNj30sUtPDwn0mX3cYLZt1HP2EbrmnhgVC8ranmsSw&s",
+            "radioUrl": "https://play.hitfmbg.com/hitfm"
+        },
+        {
+            "id": 44,
+            "radioName": "BG VOICE HIT MIX",
+            "radioPic": "https://images.radio.co/station_logos/sd38725529.20200407112941.png",
+            "radioUrl": "https://stream.radio.co/s53f1b7497/listen"
+        },
+
+        {
+            "id": 45,
+            "radioName": "Deep Lounge Radio",
+            "radioPic": "https://streamurl.link/logos/f94f8213d06f0946e51d4e8b623db659ada5df1cb2c3f7f718af7da3bc27fc83.png",
+            "radioUrl": "https://radio.jump.bg/proxy/georgi18/stream"
+        },
+        {
+            "id": 46,
+            "radioName": "Радио Maia",
+            "radioPic": "https://cdn-profiles.tunein.com/s9302/images/logod.png?t=637673168820000000",
+            "radioUrl": "http://mail.rntel.com:9000/"
+        },
+        {
+            "id": 47,
+            "radioName": "Online DJ Radio",
+            "radioPic": "https://onlinedjradio.com/wp-content/uploads/2012/01/online-radio-logo-274x274.png",
+            "radioUrl": "https://play.onlinedjradio.com:7000/live"
+        },
+        {
+            "id": 48,
+            "radioName": "Радио Family Bulgaria",
+            "radioPic": "https://streamurl.link/logos/747cc0689ed5c86c8ecf93b2bbf2e2c8d2dc7dfe7d8edf05c0afe73502eb6b63.png",
+            "radioUrl": "http://a1.virtualradio.eu:8000/family.mp3"
+        },
+
+        {
+            "id": 49,
+            "radioName": "Авторадио",
+            "radioPic": "https://www.avtoradio.bg/ar_logo.f88b409f.png",
+            "radioUrl": "http://play.global.audio/avtoradio.mp3"
+        },
+        {
+            "id": 50,
+            "radioName": "Радио Бг Естрада",
+            "radioPic": "https://static-cdn.radioto.info/images/brands/bg/thumb_bgradio-estrada.png",
+            "radioUrl": "http://79.98.108.170:8278/autodj"
+        }
+        
+    ]
+}
