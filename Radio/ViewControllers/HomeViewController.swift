@@ -7,6 +7,7 @@
 
 import UIKit
 import Kingfisher
+import FirebaseDatabase
 
 class HomeViewController: UIViewController {
     
@@ -25,20 +26,15 @@ class HomeViewController: UIViewController {
     }
     
     func getStations() {
-        guard let url = URL(string: "https://json.extendsclass.com/bin/017827a327c8") else { return }
-            URLSession.shared.dataTask(with: url) { data, response, err in
-                guard let data = data, err == nil else { return }
-                do {
-                    let jsonData = try JSONDecoder().decode(RadioObject.self, from: data)
-                    self.stations = jsonData.stations
-                    
-                    DispatchQueue.main.async {
-                        self.stationTableView.reloadData()
-                    }
-                } catch let jsonErr {
-                    print("failed to decode json:", jsonErr)
-                }
-            }.resume()
+        let ref = Database.database().reference()
+        ref.observeSingleEvent(of: .childAdded, with: { (snapshot) in
+            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value as Any, options: []) else { return }
+            let stations = try? JSONDecoder().decode([Station].self, from: data)
+            self.stations = stations
+            DispatchQueue.main.async {
+                self.stationTableView.reloadData()
+            }
+        })
     }
     
     func setupTableView() {

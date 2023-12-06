@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		701713BC2B1E109C006569E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701713BB2B1E109C006569E2 /* SettingsViewController.swift */; };
-		701713BE2B207664006569E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 701713BD2B207664006569E2 /* GoogleService-Info.plist */; };
 		702FA0A32B1BC611000C57AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A22B1BC611000C57AD /* Extensions.swift */; };
 		702FA0A52B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */; };
 		702FA0A72B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */; };
@@ -26,6 +25,7 @@
 		709ABE4B2B1B439000A459C0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709ABE4A2B1B439000A459C0 /* PlayerViewController.swift */; };
 		70A11B052B1BC7680075849B /* PlayerViewController+SetupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A11B042B1BC7680075849B /* PlayerViewController+SetupData.swift */; };
 		70A11B072B1BC7970075849B /* PlayerViewController+ButtonActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A11B062B1BC7970075849B /* PlayerViewController+ButtonActions.swift */; };
+		70AF4D192B2094A600C7963E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70AF4D182B2094A600C7963E /* GoogleService-Info.plist */; };
 		F4E8643199774968EAEF73F2 /* Pods_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,6 @@
 		090DA3B48367DE66EAC6A6AB /* Pods-Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.release.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.release.xcconfig"; sourceTree = "<group>"; };
 		281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701713BB2B1E109C006569E2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		701713BD2B207664006569E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		702FA0A22B1BC611000C57AD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+TapGestureExtension.swift"; sourceTree = "<group>"; };
 		702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+RemoteCommandCenterExtension.swift"; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		709ABE4A2B1B439000A459C0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		70A11B042B1BC7680075849B /* PlayerViewController+SetupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+SetupData.swift"; sourceTree = "<group>"; };
 		70A11B062B1BC7970075849B /* PlayerViewController+ButtonActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+ButtonActions.swift"; sourceTree = "<group>"; };
+		70AF4D182B2094A600C7963E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70ED5C452B1B8832007A9645 /* Radio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radio.entitlements; sourceTree = "<group>"; };
 		92D848AA642278D8E55E6C7E /* Pods-Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.debug.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +113,8 @@
 				709ABE302B1B2F9600A459C0 /* Main.storyboard */,
 				709ABE352B1B2F9700A459C0 /* LaunchScreen.storyboard */,
 				70ED5C452B1B8832007A9645 /* Radio.entitlements */,
-				701713BD2B207664006569E2 /* GoogleService-Info.plist */,
 				709ABE382B1B2F9700A459C0 /* Info.plist */,
+				70AF4D182B2094A600C7963E /* GoogleService-Info.plist */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 				709ABE342B1B2F9700A459C0 /* Assets.xcassets in Resources */,
 				709ABE412B1B309D00A459C0 /* RadioStations.json in Resources */,
 				709ABE322B1B2F9600A459C0 /* Main.storyboard in Resources */,
-				701713BE2B207664006569E2 /* GoogleService-Info.plist in Resources */,
+				70AF4D192B2094A600C7963E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
