@@ -8,4 +8,5 @@ target 'Radio' do
   # Pods for Radio
   pod 'Kingfisher'
   pod 'MarqueeLabel'
+  pod 'Firebase'
 end

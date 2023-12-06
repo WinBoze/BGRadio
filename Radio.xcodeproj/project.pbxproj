@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701713BC2B1E109C006569E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701713BB2B1E109C006569E2 /* SettingsViewController.swift */; };
+		701713BE2B207664006569E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 701713BD2B207664006569E2 /* GoogleService-Info.plist */; };
 		702FA0A32B1BC611000C57AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A22B1BC611000C57AD /* Extensions.swift */; };
 		702FA0A52B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */; };
 		702FA0A72B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		090DA3B48367DE66EAC6A6AB /* Pods-Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.release.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.release.xcconfig"; sourceTree = "<group>"; };
 		281E5C656F5BF6C38A01A9FF /* Pods_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701713BB2B1E109C006569E2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		701713BD2B207664006569E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		702FA0A22B1BC611000C57AD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		702FA0A42B1BC64E000C57AD /* PlayerViewController+TapGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+TapGestureExtension.swift"; sourceTree = "<group>"; };
 		702FA0A62B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerViewController+RemoteCommandCenterExtension.swift"; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				709ABE302B1B2F9600A459C0 /* Main.storyboard */,
 				709ABE352B1B2F9700A459C0 /* LaunchScreen.storyboard */,
 				70ED5C452B1B8832007A9645 /* Radio.entitlements */,
+				701713BD2B207664006569E2 /* GoogleService-Info.plist */,
 				709ABE382B1B2F9700A459C0 /* Info.plist */,
 			);
 			path = Radio;
@@ -128,6 +133,7 @@
 			children = (
 				709ABE422B1B37EE00A459C0 /* HomeViewController.swift */,
 				709ABE442B1B380100A459C0 /* FavouritesViewController.swift */,
+				701713BB2B1E109C006569E2 /* SettingsViewController.swift */,
 				702FA0AA2B1BC735000C57AD /* PlayerViewController */,
 			);
 			path = ViewControllers;
@@ -168,6 +174,8 @@
 			dependencies = (
 			);
 			name = Radio;
+			packageProductDependencies = (
+			);
 			productName = Radio;
 			productReference = 709ABE272B1B2F9600A459C0 /* Radio.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +204,8 @@
 				Base,
 			);
 			mainGroup = 709ABE1E2B1B2F9600A459C0;
+			packageReferences = (
+			);
 			productRefGroup = 709ABE282B1B2F9600A459C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -215,6 +225,7 @@
 				709ABE342B1B2F9700A459C0 /* Assets.xcassets in Resources */,
 				709ABE412B1B309D00A459C0 /* RadioStations.json in Resources */,
 				709ABE322B1B2F9600A459C0 /* Main.storyboard in Resources */,
+				701713BE2B207664006569E2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +288,7 @@
 				702FA0A72B1BC69F000C57AD /* PlayerViewController+RemoteCommandCenterExtension.swift in Sources */,
 				709ABE4B2B1B439000A459C0 /* PlayerViewController.swift in Sources */,
 				70A11B052B1BC7680075849B /* PlayerViewController+SetupData.swift in Sources */,
+				701713BC2B1E109C006569E2 /* SettingsViewController.swift in Sources */,
 				702FA0A32B1BC611000C57AD /* Extensions.swift in Sources */,
 				70A11B072B1BC7970075849B /* PlayerViewController+ButtonActions.swift in Sources */,
 			);
@@ -436,6 +448,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Radio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "РадиоБГ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +483,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Radio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "РадиоБГ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

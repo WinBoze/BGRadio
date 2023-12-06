@@ -36,7 +36,7 @@ extension PlayerViewController {
             var info = [String : Any]()
             info[MPMediaItemPropertyTitle] = song
             let imageUrl = URL(string: imageURLString)
-            let imageData = try? Data(contentsOf: (imageUrl ?? URL(string: "https://muzaica.fm/logo/logo-black-242.png"))!)
+            let imageData = try? Data(contentsOf: (imageUrl ?? URL(string: "https://cdn-icons-png.flaticon.com/512/74/74101.png"))!)
             info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork.init(boundsSize: UIImage(data: imageData ?? Data())!.size, requestHandler: { (size) -> UIImage in
                 return UIImage(data: imageData ?? Data()) ?? UIImage()
             })

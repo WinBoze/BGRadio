@@ -51,10 +51,12 @@ class PlayerViewController: UIViewController {
         self.backgroundImageView.image = UIImage(named: "background" + "\(Int.random(in: 1..<4))")
         self.setupTapGesture()
         self.getSavedStations()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         self.setupData(forStation: currentStation!)
         self.setupPlayer()
         self.setupRemoteCommandCenter()
-        self.getSavedStations()
     }
 }
 

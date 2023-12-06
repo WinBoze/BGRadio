@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var stationTableView: UITableView!
     var stations: [Station]?
+    @IBOutlet weak var headerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +46,12 @@ class HomeViewController: UIViewController {
         self.stationTableView.dataSource = self
         let tableCellNibName = UINib(nibName: "RadioStationTableViewCell", bundle: nil)
         stationTableView.register(tableCellNibName, forCellReuseIdentifier: "RadioStationTableViewCell")
+    }
+    
+    @IBAction func settingsPressed(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: false, completion: nil)
     }
     
     func loadJson(filename fileName: String) -> RadioObject? {

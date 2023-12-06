@@ -31,15 +31,33 @@ class FavouritesViewController: UIViewController {
     
     func getSavedStations() {
         self.savedStations = []
-        guard let savedStat = UserDefaults.standard.object(forKey: "savedStations") as? Data else { return }
+        guard let savedStat = UserDefaults.standard.object(forKey: "savedStations") as? Data else {
+            DispatchQueue.main.async {
+                self.infiniteToastMessage("Нямате Любими Станции")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    _ = self.tabBarController?.selectedIndex = 0
+                }
+            }
+            return
+        }
         do {
             let decoder = JSONDecoder()
             let saved = try decoder.decode([Station].self, from: savedStat)
             self.savedStations = saved
+            if saved.count == 0 {
+                DispatchQueue.main.async {
+                    self.infiniteToastMessage("Нямате Любими Станции")
+                }
+            }
             self.stationTableView.reloadData()
         } catch let err {
             print(err)
         }
+    }
+    @IBAction func settingsBtnPressed(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: false, completion: nil)
     }
 }
 
