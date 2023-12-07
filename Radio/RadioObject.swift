@@ -11,10 +11,21 @@ struct RadioObject: Decodable {
     var stations: [Station]?
 }
 
-struct Station: Decodable, Equatable, Encodable {
+class Station: Decodable, Equatable, Encodable {
+    static func == (lhs: Station, rhs: Station) -> Bool {
+        return lhs.id ?? 0 == rhs.id ?? 0
+    }
+    
     var id: Int?
     var radioName: String?
     var radioPic: String?
     var radioUrl: String?
+    
+    init?(id: Int?, radioName: String?, radioPic: String?, radioUrl: String? ) {
+        self.id = id
+        self.radioName = radioName
+        self.radioPic = radioPic
+        self.radioUrl = radioUrl
+    }
 }
 

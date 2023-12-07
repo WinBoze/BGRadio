@@ -20,14 +20,20 @@ extension PlayerViewController {
     }
     
     @objc func playAudio() -> MPRemoteCommandHandlerStatus {
-        self.player.play()
-        self.updateMPInfoCenter(artist: currentStation?.radioName ?? "", song: currentStation?.radioName ?? "", imageURLString: currentStation?.radioPic ?? "")
+        if player == nil {
+            self.setupPlayer(withURL: currentStation?.radioUrl ?? "")
+        } else {
+            self.playPauseImageView.image = UIImage(named: "pause")
+            self.player.play()
+            self.updateMPInfoCenter(artist: currentStation?.radioName ?? "", song: currentStation?.radioName ?? "", imageURLString: currentStation?.radioPic ?? "")
+        }
         return .success
     }
     
     @objc func pauseAudio() -> MPRemoteCommandHandlerStatus  {
         self.player.pause()
         self.updateMPInfoCenter(artist: "", song: "", imageURLString: "")
+        self.playPauseImageView.image = UIImage(named: "play")
         return .success
     }
     
@@ -36,8 +42,10 @@ extension PlayerViewController {
             var info = [String : Any]()
             info[MPMediaItemPropertyTitle] = song
             let imageUrl = URL(string: imageURLString)
-            let imageData = try? Data(contentsOf: (imageUrl ?? URL(string: "https://cdn-icons-png.flaticon.com/512/74/74101.png"))!)
-            info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork.init(boundsSize: UIImage(data: imageData ?? Data())!.size, requestHandler: { (size) -> UIImage in
+            let imageData = try? Data(contentsOf: (imageUrl ?? URL(string: "https://i.pinimg.com/originals/74/b8/16/74b81658df0417d6058f5ee60c0954a5.png"))!)
+            info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork.init(boundsSize:
+                                                                        (UIImage(data: imageData ?? Data()) ??
+                                                                         UIImage(systemName: "AppIcon"))?.size ?? CGSize(), requestHandler: { (size) -> UIImage in
                 return UIImage(data: imageData ?? Data()) ?? UIImage()
             })
             info[MPMediaItemPropertyArtist] = artist

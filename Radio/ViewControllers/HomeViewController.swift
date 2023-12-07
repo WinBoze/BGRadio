@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
             guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value as Any, options: []) else { return }
             let stations = try? JSONDecoder().decode([Station].self, from: data)
             self.stations = stations
+            GlobalVariables.allStations = stations!
             DispatchQueue.main.async {
                 self.stationTableView.reloadData()
             }
